@@ -16,7 +16,7 @@ namespace WenGridUse
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 自动颜色大小());
+            Application.Run(new 自动颜色大小()); 
             //Application.Run(new 自动生成界面());
             //Application.Run(new 自动表格());
         }
