@@ -29,3 +29,4 @@ WinForm 中自动生成表格的核心载体是 `DataGridView`，关键实践如
 1. 自动生成界面的核心是**数据源驱动 + 布局容器**，通过反射/配置动态创建控件，依托 FlowLayoutPanel/TableLayoutPanel 实现规整排列。
 2. 自动表格的关键是 `DataGridView` 绑定数据源，结合列自适应、格式配置实现灵活的表格展示，注意大数据量的性能优化。
 3. 自动适配大小依赖 `Anchor/Dock` 属性和布局容器，颜色适配需封装全局样式，兼顾系统主题和自定义主题的灵活性。
+<img width="1463" height="765" alt="image" src="https://github.com/user-attachments/assets/c1284048-2cf1-4d4b-94e3-4308cfd14b6b" />
