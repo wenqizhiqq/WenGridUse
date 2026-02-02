@@ -24,12 +24,9 @@ namespace WenGridUse
         private void 自动生成界面_Load(object sender, EventArgs e)
         { 
             autoFieldPanel1.BindStaticList(_cfg, _csv);
-        }
-
-
+        } 
         private void button1_Click(object sender, EventArgs e)
-        {
-            //_cfg.CardNo++;
+        { 
             _cfg.bOpen = true;
         }
 
@@ -49,10 +46,7 @@ namespace WenGridUse
         public int CardNo { get; set; }
 
         [DisplayName("轴号")]
-        public int AxisNo { get; set; }
-
-        //[DisplayName("序号")]
-        //public int Index { get; set; }
+        public int AxisNo { get; set; } 
 
         [DisplayName("轴-名称   ")]
         public string AxisName { get; set; }

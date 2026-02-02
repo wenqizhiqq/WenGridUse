@@ -20,23 +20,7 @@ namespace WenGridUse
 
         private void 自动表格_Load(object sender, EventArgs e)
         {
-            dgvAXis.BindStaticList(axisList, "存档\\轴.csv");
-
-            string[][] strings = new string[][] {
-                  new string []{  "0", "1", "2", "3", },
-                  new string []{ "0", "1", "2", "3",},
-                  new string []{  "(自定义命名)", },
-                  new string[] { "0(不回原)", "1+(正方向一次回原)", "1-(负方向一次回原)","2+(正方向二次回原)","2-(负方向二次回原)" },
-                  new string[] { "2(2个脉冲=1毫米)" },
-                  new string[] { "100(100个毫米每秒)" },
-                  new string[] { "3" },
-                  new string[] { "3" },
-                  new string[] { "(不需要填)" },
-                  new string[] { "(不需要填)" },
-                  new string[] { "(不需要填)" },
-                  new string[] { "(不需要填)" },
-                  new string[] { "(不需要填)" },
-            };
+            dgvAXis.BindStaticList(axisList, "存档\\轴.csv"); 
         }
         public static List<AxisInfo> axisList = new List<AxisInfo>();
     }
