@@ -100,7 +100,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="dll\WenGrid.dll" />
   </ItemGroup>
